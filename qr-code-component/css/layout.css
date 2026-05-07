@@ -15,3 +15,8 @@ body {
   align-items: center;
   padding: var(--space-200);
 }
+
+.footer {
+  margin-block-start: auto; /* fallback */
+  padding-block: var(--space-100);
+}
