@@ -1,0 +1,1 @@
+# Frontend Mentor - Learning paths solutions
