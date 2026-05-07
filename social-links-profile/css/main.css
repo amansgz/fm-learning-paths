@@ -7,3 +7,9 @@
 
 /* 2. BASE - Global styles, reset, typography */
 @import "base.css";
+
+/* 3. LAYOUT - Page structure*/
+@import "layout.css";
+
+/* 4. COMPONENTS */
+@import "components/profile.css";
