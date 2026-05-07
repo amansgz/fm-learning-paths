@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <!-- Title & Description(SEO) -->
+    <title>Frontend Mentor | Blog preview card</title>
+    <meta name="description" content="Solution to Blog preview card challenge on Frontend Mentor">
+
+    <!-- CSS main stylesheets -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <main class="main-content">
+
+        <article class="card">
+
+            <header class="card__header">
+                <!--  show a cropped portion on mobile and complete image on desktop  -->
+                <img class="card__img" src="./assets/images/illustration-article.svg" alt="" width="288" height="288"
+                    aria-hidden="true">
+            </header>
+
+
+            <div class="card__content">
+
+                <span class="card__badge  card__badge--learning">
+                    Learning
+                </span>
+
+                <div class="card__wrapper-date">
+                    <span class="card__published">Published</span>
+                    <time class="card__date" datetime="2023-12-21">
+                        21 Dec 2023
+                    </time>
+                </div>
+
+                <h1>
+                    <a href="#" class="card__title">
+                        HTML & CSS foundations
+                    </a>
+                </h1>
+
+                <p class="card__description">
+                    These languages are the backbone of every website, defining structure, content, and presentation.
+                </p>
+
+            </div>
+
+            <footer class="card__footer">
+
+                <div class="author">
+                    <img class="author__avatar" src="./assets/images/image-avatar.webp" alt="Avatar of Greg Hooper"
+                        width="32" height="32">
+
+                    <p class="author__name">Greg Hooper</p>
+                </div>
+
+            </footer>
+
+        </article>
+
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="attribution">
+            <li class="attribution__item">
+                Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+            </li>
+
+            <li class="attribution__item">
+                Coded by
+                <a class="attribution__link" href="https://github.com/amansgz" target="_blank"
+                    rel="noopener noreferrer">
+                    @amansgz</a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+</body>
+
+</html>
