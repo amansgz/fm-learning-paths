@@ -16,3 +16,8 @@ body {
 
   padding: var(--spacing-200);
 }
+
+.footer {
+  margin-block-start: auto; /* fallback */
+  padding-block: var(--spacing-200);
+}
